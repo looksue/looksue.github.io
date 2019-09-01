@@ -1,0 +1,199 @@
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    background-image: url("../images/memphis_mini.png");
+    background-repeat: repeat;
+    display: block;
+}
+
+header, section, footer {
+    background: #cccccc;
+}
+
+header {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    background-color: #ffffff;
+    width: 960px;
+    height: 55px;
+}
+
+nav {
+    margin: 0px 50px 10px 50px; 
+    padding: 20px 20px 20px 20px;
+    float: right; 
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+section {
+    width: 650px;
+    margin: 20px 200px 50px 200px;
+    padding: 0px 10px 10px 10px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    float: left;
+}
+
+article {
+    color: #777777;
+    background: #ffffff;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 15px 15px 15px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0px 0px 0px 200px;
+    padding: 20px 20px 20px 20px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+h2 {
+    color: #4aaaa5;
+    /*margin: 10px 25px 5px 25px;*/
+    padding: 20px 20px 20px 20px;
+    float: left;
+    width: 550px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+}
+
+h3 {
+    color: #4aaaa5;
+    margin: 10px 25px 5px 25px;
+    padding: 20px 20px 20px 20px;
+}
+
+img {
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+
+p {
+    margin: 20px 0px 0px 0px;
+    float: right;
+}
+
+footer {
+    padding: 30px 30px 5px 30px;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+}
+
+.div-port {
+    margin: 10px 10px 10px 0px;
+    text-align: center;
+    color: white;  
+    display: inline-block;
+    position: relative;
+    }
+
+.div-label {
+    position: absolute;
+    bottom: 40px;
+    margin: 0px;  
+    background-color: #4aaaa5;
+    color: white;  
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imgPort {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width: 980px) {
+    body, header, footer {
+        width: 95%;
+    }
+    section {
+        width: 80%;
+        margin: 20px 100px;
+    }
+    h1 {
+        margin-left: 100px;
+    }
+    h2 {
+        width: 75%;
+    }
+    input {
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body, header, footer {
+        width: 95%;
+    }
+    section {
+        width: 80%;
+        margin: 20px 50px;
+    }
+    h1 {
+        margin-left: 50px;
+    }
+    h2 {
+        width: 75%;
+    }
+    input {
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+    }
+}
+    
+@media screen and (max-width: 640px) {
+    body, header, footer {
+        width: 95%;
+    }
+    section {
+        width: 80%;
+        margin: 20px 0px;
+    }
+    h1 {
+        margin-left: 0px;
+    }
+    h2 {
+        width: 75%;
+    }
+    input {
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+    }
+    header {
+        position: static;
+    }
+}
