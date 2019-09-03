@@ -7,47 +7,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets\css\reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets\css\style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div class="main-wrapper">
-        <header>
-            <h1>Sue Look</h1>
-            <nav>
-                <a href="index.html">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                <a href="portfolio.html">Portfolio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                <a href="resume.html">Resume</a>
+    <div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="col-sm-2"></div>
+                <a class="navbar-brand" href="#" style="color:#4682B4">Sue Look</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSue"
+                    aria-controls="navbarSue" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSue">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Resume</a>
+                        </li>
+                    </ul>
+                    <div class="col-sm-2"></div>
+                </div>
             </nav>
-        </header>
 
-        <main>
-
-            <section>
-                <article>
-                    <h2>About Me</h2>
-                    <aside>
-                    </aside>
-                    <p><img src="assets\images\about_sue.png" alt="Photo of Sue">
-                        Outgoing and helpful Full Stack Developer in search of a fun and productive place to have an impact!
-                        <br></br><a href="mailto:suelook2@gmail.com">Email: suelook2@gmail.com</a>
-                        <br></br><a href="http://linkedin.com/in/susanlook">Linkedin: linkedin.com/in/susanlook/</a>
-                        <br></br><a href="http://github.com/looksue">GitHub: github.com/looksue</a>
-                        <br></br>Skills: JavaScript, HTML5, CSS3, MongoDB, MYSQL, Firebase
-                        <br></br>Frameworks: Bootstrap, JQuery, Node.js, React, Moment.js
-                        <br></br>
-                        <img src="assets\images\henryford.jpg" class="inspirational" alt="inspirational quote">
-                    </p>
-                </article>
+            <article>
+                <h2>About Me</h2>
+                <aside>
+                </aside>
+                <p><img src="assets\images\about_sue.png" alt="Photo of Sue">
+                    Outgoing and helpful Full Stack Developer in search of a fun and productive place to have an impact!
+                    <br></br><a href="mailto:suelook2@gmail.com">Email: suelook2@gmail.com</a>
+                    <br></br><a href="http://linkedin.com/in/susanlook">Linkedin: linkedin.com/in/susanlook/</a>
+                    <br></br><a href="http://github.com/looksue">GitHub: github.com/looksue</a>
+                    <br></br>Skills: JavaScript, HTML5, CSS3, MongoDB, MYSQL, Firebase
+                    <br></br>Frameworks: Bootstrap, JQuery, Node.js, React, Moment.js
+                    <br></br>
+                    <img src="assets\images\henryford.jpg" class="inspirational" alt="inspirational quote">
+                </p>
+            </article>
 
             </section>
 
-        </main>
-
-        <footer>
-            Copyright &copy;
-        </footer>
-    </div>
+            <footer>
+                Copyright &copy;
+            </footer>
+        </div>
 </body>
 
 </html>
