@@ -1,12 +1,20 @@
-body {
+html, body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     background-image: url("../images/memphis_mini.png");
     background-repeat: repeat;
     display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+}
 header, section, footer {
     background: #cccccc;
 }
@@ -50,6 +58,7 @@ article {
     background: #ffffff;
     margin: 10px 0px 0px 0px;
     padding: 0px 15px 15px 15px;
+    flex: 1;
 }
 
 h1, h2, h3 {
@@ -84,9 +93,32 @@ h3 {
 }
 
 img {
-    margin: 0px 20px 20px 0px;
+    margin: 0px 20px 50px 0px;
     float: left;
 }
+.inspirational {
+    margin: 0px 20px 20px 0px;
+    clear: both;
+    height: 80%;
+    width: 100%;
+    position: center;
+
+}
+.resume1 {
+    clear: both;
+    width: 100%;
+    position: center;
+    margin: 0px, 0px, 0px, 0px;
+}
+.resume2 {
+    width: 100%;
+    margin: 0px, 0px, 0px, 0px;
+    position: center;
+
+}
+
+
+
 
 p {
     margin: 20px 0px 0px 0px;
@@ -102,6 +134,8 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
     border-top-color: #4682B4;
+    position: sticky;
+    bottom: 0;
 }
 
 .div-port {
@@ -127,6 +161,7 @@ footer {
 .imgPort {
     height: 200px;
     width: 200px;
+    margin: 0px 20px 20px 0px;
 }
 
 .iframe-container {
