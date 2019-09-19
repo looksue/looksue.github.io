@@ -1,4 +1,4 @@
-# Project: Personal Webpage
+# Project: Personal Portfolio
 
 This is my personal portfolio for my UNCC Bootcamp course. It has an about me page that features links to my Linkedin, Email, GitHub, group project, and lists my skills and frameworks I've learned. It has another tab that showcases my portfolio projects which is constantly being updated. You can also find my current resume. 
 
