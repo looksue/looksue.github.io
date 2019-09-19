@@ -31,6 +31,6 @@ Code Example:
     body, header, footer {
         width: 100%;
     }
-
+Screenshot:![Portfolio](https://github.com/looksue/looksue.github.io/blob/master/assets/images/screenshot.png)
 
 https://looksue.github.io/
