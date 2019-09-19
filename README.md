@@ -5,7 +5,7 @@ This is my personal portfolio for my UNCC Bootcamp course. It has an about me pa
 
 Motivation: This portfolio showcases my progression in all the things I've learned since starting the bootcamp. No template was harmed in the making of this portfolio. Lots of CSS3! 
 
-Features: hyperlinks, mobile-responsive, navigation bars, 
+Features: hyperlinks, mobile-responsive, navigation bars
 
 Code Example: 
 .div-label {
