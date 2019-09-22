@@ -3,11 +3,12 @@
 This is my personal portfolio for my UNCC Bootcamp course. It has an about me page that features links to my Linkedin, Email, GitHub, group project, and lists my skills and frameworks I've learned. It has another tab that showcases my portfolio projects which is constantly being updated. You can also find my current resume. 
 
 
-Motivation: This portfolio showcases my progression in all the things I've learned since starting the bootcamp. No template was harmed in the making of this portfolio. Lots of CSS3! 
+**Motivation:** This portfolio showcases my progression in all the things I've learned since starting the bootcamp. No template was harmed in the making of this portfolio. Lots of CSS3! 
 
-Features: hyperlinks, mobile-responsive, navigation bars
+**Features:** hyperlinks, mobile-responsive, navigation bars
 
-Code Example: 
+**Code Example:*
+```css3
 .div-label {
     position: absolute;
     bottom: 40px;
@@ -31,6 +32,9 @@ Code Example:
     body, header, footer {
         width: 100%;
     }
-Screenshot:![Portfolio](https://github.com/looksue/looksue.github.io/blob/master/assets/images/screenshot.png)
+```
+**Screenshot:**
 
-https://looksue.github.io/
+![Portfolio](https://github.com/looksue/looksue.github.io/blob/master/assets/images/screenshot.png)
+
+**Link to Project:** https://looksue.github.io/
