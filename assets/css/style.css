@@ -161,7 +161,18 @@ footer {
     margin: 0px 20px 20px 0px;
 }
 
+.container {
+    clear: both;
+    position: absolute;
+    padding: 80px 100px 0px 0px;
+}
+.pLink {
+    font-weight: bold;
+}
 
+.pDescription {
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 980px) {
     body, header, footer {
         width: 100%;
